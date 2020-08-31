@@ -16,7 +16,7 @@ function BookCard(props: any) {
     return (
         <div className={classes.root}>
             <Card className={classes.card}>
-                <img alt={props.imageAlt} src={props.img} />
+                <img alt={props.imageAlt} src={props.img} style={{"width": 200, "height": 250}} />
                 {props.name !== undefined 
                     ? (
                         <div className={classes.cardContent}>
